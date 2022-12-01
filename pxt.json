@@ -1,5 +1,6 @@
 {
     "name": "Wakanda Forever : Play Now!",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "device": "*",
