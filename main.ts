@@ -19,7 +19,7 @@ let Shuri: Sprite = null
 game.showLongText("Help Shuri, Okoye and Riri escape Namor. Press the (\\ \"A\\\" button to go to the next screen.)", DialogLayout.Full)
 game.showLongText("When game begins, press the ARROW KEYS to move Shuri, Okoye and Riri. If Namor catches you, you will lose points!", DialogLayout.Full)
 game.showLongText("Earn 50 points to win and to stay alive you must keep your heart(s).", DialogLayout.Full)
-info.setLife(2)
+info.setLife(3)
 scene.setBackgroundImage(assets.image`wakanda`)
 Shuri = sprites.create(assets.image`shuri`, SpriteKind.Player)
 controller.moveSprite(Shuri)
