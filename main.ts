@@ -8,7 +8,7 @@ info.onScore(50, function () {
     game.over(true)
     effects.confetti.startScreenEffect()
     game.showLongText("We are safe!", DialogLayout.Bottom)
-    Shuri.sayText("WAKANDA FOREVER", 5000, false)
+    Shuri.sayText("WAKANDA FOREVER", 5000, true)
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     info.changeLifeBy(-1)
